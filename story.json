@@ -1,0 +1,85 @@
+{
+  "start": {
+    "text": "You find yourself in a dark forest. Two paths lie before you. What is your name?",
+    "choices": {
+      "nameInput": "Enter your name and proceed."
+    }
+  },
+  "nameInput": {
+    "text": "Nice to meet you, {name}! You can take the left path to a mysterious cave or the right path to a river. What will you do?",
+    "choices": {
+      "left": "Take the left path",
+      "right": "Take the right path"
+    }
+  },
+  "left": {
+    "text": "You encounter a mysterious cave. Do you enter the cave or gather supplies outside?",
+    "choices": {
+      "enter": "Enter the cave",
+      "gather": "Gather supplies outside"
+    }
+  },
+  "right": {
+    "text": "You find a river. Do you swim across or build a raft?",
+    "choices": {
+      "swim": "Swim across",
+      "raft": "Build a raft"
+    }
+  },
+  "enter": {
+    "text": "Inside the cave, you find a treasure chest. Roll a dice to see if you find gold or an angry monster!",
+    "choices": {
+      "rollDice": "Roll the dice"
+    }
+  },
+  "gather": {
+    "text": "While gathering supplies, you encounter a wild animal! Do you fight it or run away?",
+    "choices": {
+      "fight": "Fight the animal",
+      "run": "Run away"
+    }
+  },
+  "swim": {
+    "text": "You attempt to swim across the river, but the current is strong. Do you call for help or try to keep swimming?",
+    "choices": {
+      "help": "Call for help",
+      "swimMore": "Keep swimming"
+    }
+  },
+  "raft": {
+    "text": "You build a raft successfully and cross the river safely. You see a village in the distance.",
+    "choices": {
+      "village": "Go to the village"
+    }
+  },
+  "rollDice": {
+    "text": "You rolled a dice! If it's 1-3, you find gold. If it's 4-6, a monster appears!",
+    "choices": {
+      "rollOutcome": "Check the outcome"
+    }
+  },
+  "rollOutcome": {
+    "text": "Based on your dice roll: {outcome}",
+    "choices": {}
+  },
+  "fight": {
+    "text": "You fought bravely and defeated the wild animal! You collect rare herbs as a reward.",
+    "choices": {}
+  },
+  "run": {
+    "text": "You ran away safely, but you lost valuable time. The end.",
+    "choices": {}
+  },
+  "help": {
+    "text": "Someone nearby helps you out of the river. You owe them a favor. The end.",
+    "choices": {}
+  },
+  "swimMore": {
+    "text": "You managed to swim across but are exhausted. The end.",
+    "choices": {}
+  },
+  "village": {
+    "text": "You reach the village and are welcomed warmly. The end.",
+    "choices": {}
+  }
+}
